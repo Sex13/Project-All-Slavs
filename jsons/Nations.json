@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Hutsul State",
+        "leaderName": "Oleksa Dovbush",
+        "innerColor": [187, 13, 13],
+        "outerColor": [11, 206, 102],
+        "uniqueName": "Carpathian Meadows",
+        "uniques": [
+            "[+1 Food, +1 Culture] from [{unimproved} {Hill}] tiles [in all cities]",
+            "[+1 Food, +1 Culture, +1 Happiness] from [Sheep] tiles [in all cities]"
+        ],
+
+        "startIntroPart1": "Be healthy, great Opryshok Oleksa Dovbush!Today you had the honor of uniting the Hutsuls, the descendants of the Rus',under your wing, ax and trembita.Among forests and mountains, streams and meadows,the villages of your beautiful people spread out, each village is unique, each village has its own version of your language, and each village is not similar to another, each city is beautiful in its own way, each city is powerful and sacred,but they are all united by the power of God, the Son, and the Holy Spirit.",
+        "startIntroPart2": "Are you ready to face the world and lead your people to the victory?",
+        "declaringWar": "You encroached on the well-being and will of my people, I will stick my ax in the back of your head, goat!",
+        "attacked": "...Where are disadvantages?",
+        "defeated": "Betrayal, hands fell, heart stopped...but on my land, no one has taught your language and will not teach it",
+        "introduction": "Oh my God, hello, how are you? Come to my house, I'll make you a bed on the stove",
+        "neutralHello": "Howdy",
+        "hateHello": "Go to hell,why you come here at that time?",
+        "tradeRequest": "Oh hello there, what about deal?",
+        "cities": [
+            "Kosiv",
+            "Rakhiv",
+            "Solotvino",
+            "Hust",
+            "Kolomyia ",
+            "Yasinya",
+            "Yaremche",
+            "Vorokhta",
+            "Verhovina",
+            "Kryvorivnia",
+            "Bohorodchany",
+            "Kosmach",
+            "Polyanytsa",
+            "Slavske",
+            "Kosivska Polyana ",
+            "Bychkov ",
+            "Upper Vodyane ",
+            "Lower Vodyane",
+            "Turka",
+            "Mykulychyn"
+        ]
+    }
+]
