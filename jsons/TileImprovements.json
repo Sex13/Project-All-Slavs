@@ -1,6 +1,7 @@
 [
     {
 		"name": "Village",
+        "uniqueTo": "Hutsul State",
         "food": 1,
         "production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],

@@ -27,6 +27,7 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Village] improvement <by consuming this unit><when below [1] [Village in this city]>",
+			"Can be purchased for [450] [Gold] [in all cities] <when below [1] [Village in this city]>",
 			"Great Person - [Culture]", 
 			"Unbuildable", 
 			"Uncapturable"

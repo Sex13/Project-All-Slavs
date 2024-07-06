@@ -7,8 +7,8 @@
         "outerColor": [11, 206, 102],
         "uniqueName": "Carpathian Meadows",
         "uniques": [
-            "[+1 Food, +1 Culture] from [{unimproved} {Hill}] tiles [in all cities]",
-            "[+1 Food, +1 Culture, +1 Happiness] from [Sheep] tiles [in all cities]"
+            "[+1 Culture] from [{unimproved} {Hill}] tiles [in all cities]",
+            "[+1 Food, +1 Culture, +1 Happiness] from [Pasture] tiles [in all cities] <in [Sheep] tiles>"
         ],
 
         "startIntroPart1": "Be healthy, great Opryshok Oleksa Dovbush!Today you had the honor of uniting the Hutsuls, the descendants of the Rus',under your wing, ax and trembita.Among forests and mountains, streams and meadows,the villages of your beautiful people spread out, each village is unique, each village has its own version of your language, and each village is not similar to another, each city is beautiful in its own way, each city is powerful and sacred,but they are all united by the power of God, the Son, and the Holy Spirit.",
