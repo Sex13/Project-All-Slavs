@@ -2,6 +2,7 @@
     {
         "name": "Hutsul State",
         "leaderName": "Oleksa Dovbush",
+        "startBias": ["Hill", "Avoid [Coast]"],
         "innerColor": [187, 13, 13],
         "outerColor": [11, 206, 102],
         "uniqueName": "Carpathian Meadows",

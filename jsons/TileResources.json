@@ -1,0 +1,19 @@
+[
+    {
+		"name": "Sheep's Cheese",
+        "food": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Doesn't generate naturally"
+        ]
+	},
+    {
+        "name": "Village in this city",
+        "resourceType": "Bonus",
+        "uniques": [
+            "City-level resource",
+            "Stockpiled",
+            "Will not be displayed in Civilopedia"
+        ]
+    }
+]

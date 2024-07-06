@@ -1,0 +1,35 @@
+[
+    {
+		"name": "Opryshok",
+		"unitType": "Sword",
+        "uniqueTo": "Hutsul State",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+        "uniques": [
+			"[+1] Sight",
+			"Double movement in [Hill]",
+			"Can pass through impassable tiles"
+		]
+	},
+	{
+		"name": "Shepherd Man",
+		"unitType": "Civilian",
+		"uniqueTo": "Hutsul State",
+		"replaces": "Great Artist",
+		"movement": 2,
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Village] improvement <by consuming this unit><when below [1] [Village in this city]>",
+			"Great Person - [Culture]", 
+			"Unbuildable", 
+			"Uncapturable"
+		]
+	}
+]

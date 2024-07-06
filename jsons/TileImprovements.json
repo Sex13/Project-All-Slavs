@@ -1,0 +1,25 @@
+[
+    {
+		"name": "Village",
+        "food": 1,
+        "production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+            "Provides [1] [Sheep's Cheese]",
+            "Provides [1] [Village in this city]",
+            "Will not be replaced by automated units",
+            "Pillaging this improvement yields approximately [+30 Gold]"
+        ],
+		"shortcutKey": "M"
+	},
+    {
+		"name": "Remove Village",
+		"turnsToBuild": 4,
+		"uniques": [
+            "Instantly consumes [1] [Village in this city]",
+            "Can be built outside your borders", 
+            "Excluded from map editor"
+        ],
+		"shortcutKey": "X"
+	}
+]
