@@ -8,7 +8,7 @@
         "uniqueName": "Carpathian Meadows",
         "uniques": [
             "[+1 Culture] from [{unimproved} {Hill}] tiles [in all cities]",
-            "[+1 Food, +1 Culture, +1 Happiness] from [Pasture] tiles [in all cities] <in [Sheep] tiles>"
+            "[+1 Food, +2 Culture, +1 Happiness] from [Pasture] tiles [in all cities] <in [Sheep] tiles>"
         ],
 
         "startIntroPart1": "Be healthy, great Opryshok Oleksa Dovbush!Today you had the honor of uniting the Hutsuls, the descendants of the Rus',under your wing, ax and trembita.Among forests and mountains, streams and meadows,the villages of your beautiful people spread out, each village is unique, each village has its own version of your language, and each village is not similar to another, each city is beautiful in its own way, each city is powerful and sacred,but they are all united by the power of God, the Son, and the Holy Spirit.",
@@ -41,6 +41,34 @@
             "Lower Vodyane",
             "Turka",
             "Mykulychyn"
+        ]
+    },
+    {
+        "name": "Zaporizhian Sich",
+        "leaderName": "Bohdan Khmelnytsky",
+        "startBias": ["River"],
+        "innerColor": [234, 0, 117],
+        "outerColor": [255, 183, 0],
+
+        "uniqueName": "Free Peoples",
+        "uniques": [
+            "[+20]% Strength <when fighting in [Foreign Land] tiles> <during a Golden Age>",
+
+            "Enables [Water] units to enter ocean tiles <after discovering [Compass]>",
+            "[+1 Food, +1 Production] [in all cities connected to capital]"
+        ],
+        "startIntroPart1": "Have a great day, Bohdan! You were chosen to lead the Cossack family, through the thorny path of survival and freedom, from Polish landlords.Your cossacks and seagulls will be the key to your clan's victory, and your goal is to manage them for success!Don't let us down, Bohdan Khmelnytsky",
+        "startIntroPart2": "Are you ready to win the freedom for your people?",
+        "declaringWar": "God saw, I meant well, but the way you behave towards us makes me say only one word... massacre",
+        "attacked": "You are a treacherous rat, let your ass come apart at the seams",
+        "defeated": "They will not give the Ukrainian race the will to live and prosper. My poor people... God, why did you leave us!",
+        "introduction": "Hello stranger, I am Bohdan Khmelnytsky, the Hetman of the Zaporizhian Sich, leader of the Cossack clan. Do not behave hostilely, and you will keep the last healthy teeth in your mouth, hahahahaha!",
+        "neutralHello": "Let God bless you!" ,
+        "hateHello": "Look at them, our guests have come to ask the hetman for forgiveness on their knees.",
+        "tradeRequest": "Have the conscience to accept my offer, I tried to make it profitable for everyone equally.",
+
+        "cities": [
+            "Zaporizhia"
         ]
     }
 ]

@@ -1,0 +1,12 @@
+[
+    {
+		"name": "Sich",
+        "uniqueTo": "Zaporizhian Sich",
+		"replaces": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", "[+20]% Strength <for [{Military} {Land}] units> <in cities with a [Sich]>"]
+	}
+]
