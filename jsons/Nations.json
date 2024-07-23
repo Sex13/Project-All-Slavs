@@ -47,10 +47,10 @@
         "name": "Zaporizhian Sich",
         "leaderName": "Bohdan Khmelnytsky",
         "startBias": ["River"],
-        "innerColor": [234, 0, 117],
-        "outerColor": [255, 183, 0],
+        "innerColor": [250, 0, 150],
+        "outerColor": [81, 165, 66],
 
-        "uniqueName": "Free Peoples",
+        "uniqueName": "Free People",
         "uniques": [
             "[+20]% Strength <when fighting in [Foreign Land] tiles> <during a Golden Age>",
 
@@ -68,7 +68,120 @@
         "tradeRequest": "Have the conscience to accept my offer, I tried to make it profitable for everyone equally.",
 
         "cities": [
-            "Zaporizhia"
+            "Zaporizhia",
+            "Khortytsya",
+            "Pereiaslav",
+            "Kremenets",
+            "Chigirin",
+            "Chernihiv",
+            "Baturin",
+            "Kozeltsi",
+            "Hlukhiv",
+            "Orynyn",
+            "Porsk",
+            "Kobyayany",
+            "Oleshky",
+            "Ochakiv",
+            "Mylov",
+            "Kamyanets-Podilskyi",
+            "Tsyganychi",
+            "Zbarazh",
+            "Uman"
+        ]
+    },
+    {
+		"name": "The Kyivan Rus",
+		"adjective": ["Kyivan"],
+		"leaderName": "Yaroslav the Wise",
+		"startBias": ["Avoid [Desert]", "River"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+		"declaringWar": "By Perun's mighty hammer! I declare war between our lands! Let my fierce Druzhina and the clash of steel be my roar!",
+		"attacked": "This treachery shall not pass unanswered! Let my guard march forth, and my mighty siege engines roar, as we crush you like grapes beneath our iron boots!",
+		"defeated": "Alas, bitter defeat! Our once-proud Kyiv now lie in ruin, like shattered dreams upon the cold earth! But let it be known, we will come back stronger than ever!",
+		"introduction": "Good Day! What brings you here to my lands? I assume you sailed the Dnieper here for trade!",
+
+		"neutralHello": "What brings you to the foot my throne?",
+		"hateHello": "Begone, foul wretch! May the harsh winds of fate carry you far from my sight!",
+
+		"tradeRequest": "Might we, perhaps, enter into a most profitable arrangement? As two ships floating along on the same river?",
+
+		"outerColor": [4, 67, 137],
+		"innerColor": [247, 184, 1],
+
+        "uniqueText":
+            "[+1 Gold, +1 Happiness] in cities on [River] tiles,
+            Roads connect tiles across rivers,
+            [Land] units gain the [River Walker] promotion,
+            Druzhina military unit uses a unique promotion tree",
+
+		"uniqueName": "Volosts of The Dnipro",
+		"uniques": ["[+1 Gold, +1 Happiness] in cities on [River] tiles", "Roads connect tiles across rivers", "[Land] units gain the [River Walker] promotion"],
+
+		"cities": ["Kyiv", "Novgorod", "Chernihiv", "Pereyaslavl", "Smolensk", "Polotsk", "Rostov", "Murom", "Ryazan", "Vyshgorod", "Turov", "Pinsk", "Bilgorod", "Grodno", "Lutsk", "Minsk", "Mstislavl", "Pereiaslav", "Galich", "Volodymyr-Volynskyi", "Yaroslavl", "Yuriev-Polsky", "Izborsk", "Yuriev", "Pskov", "Dorogobuzh", "Toropets", "Uglich"]
+
+	},
+    {
+        "name": "Novgorod Republic",
+        "adjective": ["Novgorodian"],
+        "leaderName": "Alexander Nevsky",
+        "startBias": ["River"],
+        "preferredVictoryType": "Diplomatic",
+        "favoredReligion": "Christianity",
+    
+        "declaringWar": "Our unyielding strongholds will not falter to one as puny as you, and my cunning armies will unleash their fury upon you!",
+        "attacked": "I shall throw you into a pitfull of snakes!",
+        "defeated": "As the sun sets upon beloved Novgorod, I remember fierce battles, and my peoples unwavering faith! Farewell, dear Novgorod, your people will see your glory restored! In time.",
+        "introduction": "Greetings, I am Alexander Nevsky, Prince of Novgorod, defender of Orthodoxy, bane of the Swedish, and guardian of the lands! My land is beneath the watchful eyes of our saints. Don't step too close.",
+    
+        "neutralHello": "Greetings, fellow ruler.",
+        "hateHello": "Begone from my borders, lest you wish to taste my vengeance!",
+    
+        "tradeRequest": "Listen well, ruler, for I, Alexander Nevsky, Prince of Novgorod, have come to propose a trade agreement between our lands!",
+    
+        "outerColor": [166, 38, 57],
+        "innerColor": [206, 129, 71],
+    
+        "uniqueName": "Boyar Aristocracy",
+        "uniques": ["[-50]% Food consumption by specialists [in capital]", "[-50]% Unhappiness from [Specialists] [in capital]", "[+2 Faith] from every specialist [in capital]"],
+    
+        "cities": ["Novgorod", "Pskov", "Tver", "Ladoga", "Smolensk", "Veliky Ustyug", "Vologda", "Veliky Novgorod", "Tikhvin", "Torzhok", "Kargopol", "Uglich", "Kholmogory", "Kostroma", "Roslavl", "Kalinin", "Yaroslavl", "Gorodets", "Bely", "Mtsensk", "Ryazan", "Vyatka", "Yuriev-Polsky", "Murom", "Pereslavl-Zalessky", "Kozelsk", "Dmitrov", "Galich", "Uglitch", "Belev"]
+    },
+    {
+        "name": "Russian Tsardom",
+        "leaderName": "Ivan the Terrible",
+        "startBias": ["Tundra"],
+        "innerColor": [255, 183, 0],
+        "outerColor": [203, 0, 0],
+        "uniqueName": "Culture of courage and coldness",
+        "uniques": [
+            "[+3 Production, -1 Happiness] per [3] population [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
+            "[-100]% unhappiness from the number of cities",
+            "[+1 Food] from [Marsh] tiles [in all cities]",
+            "[{Military} {Land}] units gain the [Amphibious] promotion"
+        ],
+        "cities": [
+            "Moscow",
+            "Vladimir",
+            "Ryazan",
+            "Tver",
+            "Yaroslavl",
+            "Novgorod-Seversky",
+            "Starodudch",
+            "Starodusa",
+            "Pereslavl-Zalessky",
+            "Poshekhonye",
+            "Uglitsey",
+            "Sergiev-Posad",
+            "Kostroma",
+            "Kolomna",
+            "Tula",
+            "Kaluga",
+            "Kozelsk",
+            "Belozersky",
+            "Yershky",
+            "Rzhev"
         ]
     }
 ]

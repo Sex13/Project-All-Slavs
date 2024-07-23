@@ -8,5 +8,28 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured", "[+20]% Strength <for [{Military} {Land}] units> <in cities with a [Sich]>"]
-	}
+	},
+	{
+		"name": "Wooden Palace",
+		"uniqueTo": "The Kyivan Rus",
+		"replaces": "Castle",
+		"cost": 120,
+		"cityStrength": 7,
+		"cityHealth": 20,
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Metal Casting",
+		"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [10] HP per turn when healing", "[+1 Happiness, +1 Production] [in this city] <with a garrison>"]
+	},
+	{
+		"name": "Veche Bell Tower",
+		"uniqueTo": "Novgorod Republic",
+		"replaces": "Courthouse",
+		"happiness": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
+		"requiredTech": "Mathematics"
+	},
 ]

@@ -1,138 +1,208 @@
 
 game.png
-size: 2048, 128
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Sich
   rotate: false
-  xy: 760, 4
+  xy: 820, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Veche Bell Tower
+  rotate: false
+  xy: 712, 488
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wooden Palace
+  rotate: false
+  xy: 712, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Village
   rotate: false
-  xy: 868, 4
+  xy: 820, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-LeaderIcons/Bohdan Khmelnytsky
+LeaderIcons/Alexander Nevsky
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-LeaderIcons/Oleksa Dovbush
-  rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Hutsul State
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Zaporizhian Sich
-  rotate: false
-  xy: 1084, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sheep's Cheese
-  rotate: false
-  xy: 544, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Chayka
-  rotate: false
-  xy: 1192, 8
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Opryshok
-  rotate: false
-  xy: 1296, 8
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Shepherd Man
-  rotate: false
-  xy: 1400, 8
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Zaporizhian Cossack
-  rotate: false
-  xy: 1504, 8
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Village
-  rotate: false
-  xy: 1608, 12
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Opryshok
-  rotate: false
-  xy: 1680, 86
-  size: 25, 18
-  orig: 25, 18
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Shepherd Man
-  rotate: false
-  xy: 1680, 60
-  size: 25, 18
-  orig: 25, 18
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Village
-  rotate: false
-  xy: 1608, 48
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-UnitIcons/Chayka
+LeaderIcons/Bohdan Khmelnytsky
   rotate: false
   xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+LeaderIcons/Ivan the Terrible
+  rotate: false
+  xy: 712, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LeaderIcons/Oleksa Dovbush
+  rotate: false
+  xy: 320, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LeaderIcons/Yaroslav the Wise
+  rotate: false
+  xy: 820, 488
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hutsul State
+  rotate: false
+  xy: 212, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Novgorod Republic
+  rotate: false
+  xy: 820, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Russian Tsardom
+  rotate: false
+  xy: 820, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Kyivan Rus
+  rotate: false
+  xy: 536, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zaporizhian Sich
+  rotate: false
+  xy: 644, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sheep's Cheese
+  rotate: false
+  xy: 428, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Chayka
+  rotate: false
+  xy: 752, 276
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Opryshok
+  rotate: false
+  xy: 856, 276
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Shepherd Man
+  rotate: false
+  xy: 752, 172
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Zaporizhian Cossack
+  rotate: false
+  xy: 856, 172
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Village
+  rotate: false
+  xy: 712, 344
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Opryshok
+  rotate: false
+  xy: 212, 186
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Shepherd Man
+  rotate: false
+  xy: 928, 938
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Village
+  rotate: false
+  xy: 928, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitIcons/Chayka
+  rotate: false
+  xy: 712, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Druzhina
+  rotate: false
+  xy: 4, 320
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+UnitIcons/Novgorodian Streltsy
+  rotate: false
+  xy: 4, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Opryshok
   rotate: false
-  xy: 436, 4
+  xy: 712, 704
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shepherd Man
   rotate: false
-  xy: 652, 4
+  xy: 712, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zaporizhian Cossack
   rotate: false
-  xy: 976, 4
+  xy: 820, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
