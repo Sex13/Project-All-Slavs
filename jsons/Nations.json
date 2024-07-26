@@ -47,8 +47,8 @@
         "name": "Zaporizhian Sich",
         "leaderName": "Bohdan Khmelnytsky",
         "startBias": ["River"],
-        "innerColor": [250, 0, 150],
-        "outerColor": [81, 165, 66],
+        "innerColor": [0, 153, 0],
+        "outerColor": [255, 205, 0],
 
         "uniqueName": "Free People",
         "uniques": [
@@ -117,7 +117,11 @@
             Druzhina military unit uses a unique promotion tree",
 
 		"uniqueName": "Volosts of The Dnipro",
-		"uniques": ["[+1 Gold, +1 Happiness] in cities on [River] tiles", "Roads connect tiles across rivers", "[Land] units gain the [River Walker] promotion"],
+		"uniques": [
+            "[+1 Gold, +1 Happiness] in cities on [River] tiles", 
+            "Roads connect tiles across rivers", 
+            "[Land] units gain the [River Walker] promotion",
+            "Comment [\n\nThis nation was originally created by [RatInfestation] for the mod [Project Allciv].]"],
 
 		"cities": ["Kyiv", "Novgorod", "Chernihiv", "Pereyaslavl", "Smolensk", "Polotsk", "Rostov", "Murom", "Ryazan", "Vyshgorod", "Turov", "Pinsk", "Bilgorod", "Grodno", "Lutsk", "Minsk", "Mstislavl", "Pereiaslav", "Galich", "Volodymyr-Volynskyi", "Yaroslavl", "Yuriev-Polsky", "Izborsk", "Yuriev", "Pskov", "Dorogobuzh", "Toropets", "Uglich"]
 
@@ -144,7 +148,11 @@
         "innerColor": [206, 129, 71],
     
         "uniqueName": "Boyar Aristocracy",
-        "uniques": ["[-50]% Food consumption by specialists [in capital]", "[-50]% Unhappiness from [Specialists] [in capital]", "[+2 Faith] from every specialist [in capital]"],
+        "uniques": [
+            "[-50]% Food consumption by specialists [in capital]", 
+            "[-50]% Unhappiness from [Specialists] [in capital]", 
+            "[+2 Faith] from every specialist [in capital]",
+            "Comment [\n\nThis nation was originally created by [RatInfestation] for the mod [Project Allciv].]"],
     
         "cities": ["Novgorod", "Pskov", "Tver", "Ladoga", "Smolensk", "Veliky Ustyug", "Vologda", "Veliky Novgorod", "Tikhvin", "Torzhok", "Kargopol", "Uglich", "Kholmogory", "Kostroma", "Roslavl", "Kalinin", "Yaroslavl", "Gorodets", "Bely", "Mtsensk", "Ryazan", "Vyatka", "Yuriev-Polsky", "Murom", "Pereslavl-Zalessky", "Kozelsk", "Dmitrov", "Galich", "Uglitch", "Belev"]
     },
@@ -183,5 +191,69 @@
             "Yershky",
             "Rzhev"
         ]
-    }
+    },
+    {
+		"name": "Serbia",
+		"leaderName": "Stefan I",
+		"adjective": ["Serbian"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "May God be with us, all hail Stefan the First-Crowned, King of Serbia! Great and holy Serbia had arisen! No longer are we just the Grand Principality of Serbia. Nay, you are a king! We have a long road ahead of us! We will supplant Byzantium!",
+		"startIntroPart2": "Your Royal Highness, Serbia calls upon you to lead it to greatness and glory! Will you make Serbia great? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Your lands will make a glorious addition to the kingdom of Serbia!",
+		"attacked": "Submit or die!",
+		"defeated": "Serbia has fallen.",
+		"introduction": "Greetings from Rashka.",
+		"neutralHello": "Hello.",
+		"hateHello": "What is it?",
+		"tradeRequest": "You can trade with us.",
+		"outerColor": [235, 69, 95],
+		"innerColor": [43, 52, 103],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "Serbian Glory",
+		"uniques": [
+            "[+1] Sight <for [{Military} {Land}] units>",
+            "[-25]% maintenance costs <for [Land] units>",
+            "No movement cost to pillage <for [Melee] units>", 
+            "Comment [\n\nThis nation was originally created by [Angelonius] for the mod [Project Serbia].]"],
+		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
+			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
+			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
+			"Prilep","Kumanovo","Presevo","Ostrovica","Prijepolje","Brodarevo","Priboj","Kratovo","Hvosno",]
+	},
+    {
+		"name": "Belarus",
+		"leaderName": "Vaclau Lastouski",
+		"adjective": ["belarusian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Welcome to Belarus, the People Republic!",
+		
+		"declaringWar": "We're tired of disputes, enough! Prepare for war!",
+		"attacked": "Are you gonna to grab our lands? Come on, get it!",
+		"defeated": "You are disgusting! How dare you...",
+		"introduction": "Hello there, my name is Vaclau, I am presenting Belarus!",
+		
+		"neutralHello": "Witayu! How are you doing?",
+		"hateHello": "What do you want now?",
+		"tradeRequest": "Would you be interested in this exchange?",
+
+		"outerColor": [255,255,255],
+		"innerColor": [255,36,0],
+		"uniqueName": "Potatoes Fields",
+		"uniques":
+			["[+1 Food, +1 Production] from all [Food] buildings",
+			"[+15]% [Food] [in all cities]",
+            "Comment [\n\nThis nation was originally created by [Anoant] for the mod [PostSovietCountries].]"],
+		"cities": ["Minsk","Gomel","Mogilev","Vitebsk","Grodno","Brest","Bobruysk","Baranovichi","Borisov", "Pinsk",
+			"Orsha","Mozyr","Soligorsk","Novopolotsk","Lida","Molodechno","Polotsk","Zhlobin","Svetlogorsk","Rechitsa"]
+	}
+    // {
+    //     "name": "Great Moravia",
+    //     "leaderName": "Someone",
+	// 	"startBias": ["Hill"],
+	// 	"preferredVictoryType": "Diplomatic",
+        
+    // }
 ]

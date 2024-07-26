@@ -92,6 +92,72 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
-	}
-
+	},
+	{
+		"name": "Streltsy",
+		"uniqueTo": "Russian Tsardom",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"uniques": [
+			"[+10]% Strength <vs [Ranged] units>",
+			"[+20]% Strength <in [River] tiles>",
+			"Can build [Fort] improvements on tiles"
+		],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Hajduk",
+		"replaces": "Rifleman",
+	        "uniqueTo": "Serbia",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Can move after attacking"],
+	        "promotions": ["Great Generals II"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fitiljaca",
+		"replaces": "Knight",
+		"uniqueTo": "Serbia",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Replaceable Parts",
+		"requiredResource": "Horses",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Logistics"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Partisans",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Belarus",
+		"replaces": "Great War Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 260,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques":
+			["Can move after attacking <when fighting in [Friendly Land] tiles>",
+			"May withdraw before melee ([67]%)"],
+		"attackSound": "shot"
+	},
 ]

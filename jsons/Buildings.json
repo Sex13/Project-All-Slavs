@@ -32,4 +32,28 @@
 		"uniques": ["Remove extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
 		"requiredTech": "Mathematics"
 	},
+	{
+		"name": "Wooden Church",
+		"uniqueTo": "Russian Tsardom",
+		"faith": 2,
+		"cost": 80,
+		"maintenance": 2,
+		"requiredTech": "Theology",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Machinery Plant",
+		"uniqueTo": "Belarus",
+		"replaces": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+20]% Production when constructing [Armored] units [in this city]",
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Machinery"
+	},
 ]
