@@ -122,7 +122,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Only available <during a Golden Age>", "Can move after attacking"],
 	        "promotions": ["Great Generals II"],
 		"attackSound": "shot"
 	},
@@ -140,7 +140,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Horses",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Only available <during a Golden Age>", "Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Logistics"],
 		"attackSound": "shot"
 	},

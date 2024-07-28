@@ -7,8 +7,8 @@
         "outerColor": [11, 206, 102],
         "uniqueName": "Carpathian Meadows",
         "uniques": [
-            "[+1 Culture] from [{unimproved} {Hill}] tiles [in all cities]",
-            "[+1 Food, +2 Culture, +1 Happiness] from [Pasture] tiles [in all cities] <in [Sheep] tiles>"
+            "[+1 Culture] from [{improved} {Hill}] tiles [in all cities]",
+            "[+1 Food, +1 Culture] from [Pasture] tiles [in all cities] <in [Sheep] tiles>"
         ],
 
         "startIntroPart1": "Be healthy, great Opryshok Oleksa Dovbush!Today you had the honor of uniting the Hutsuls, the descendants of the Rus',under your wing, ax and trembita.Among forests and mountains, streams and meadows,the villages of your beautiful people spread out, each village is unique, each village has its own version of your language, and each village is not similar to another, each city is beautiful in its own way, each city is powerful and sacred,but they are all united by the power of God, the Son, and the Holy Spirit.",
@@ -52,10 +52,8 @@
 
         "uniqueName": "Free People",
         "uniques": [
-            "[+20]% Strength <when fighting in [Foreign Land] tiles> <during a Golden Age>",
-
-            "Enables [Water] units to enter ocean tiles <after discovering [Compass]>",
-            "[+1 Food, +1 Production] [in all cities connected to capital]"
+            "[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+            "[+10]% Strength <during a Golden Age>"
         ],
         "startIntroPart1": "Have a great day, Bohdan! You were chosen to lead the Cossack family, through the thorny path of survival and freedom, from Polish landlords.Your cossacks and seagulls will be the key to your clan's victory, and your goal is to manage them for success!Don't let us down, Bohdan Khmelnytsky",
         "startIntroPart2": "Are you ready to win the freedom for your people?",
@@ -164,8 +162,8 @@
         "outerColor": [203, 0, 0],
         "uniqueName": "Culture of courage and coldness",
         "uniques": [
-            "[+3 Production, -1 Happiness] per [3] population [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
-            "[-100]% unhappiness from the number of cities",
+            "[+3 Production] per [3] population [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
+            "[-2 Happiness] per [3] population [in all cities]",
             "[+1 Food] from [Marsh] tiles [in all cities]",
             "[{Military} {Land}] units gain the [Amphibious] promotion"
         ],
